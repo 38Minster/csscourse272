@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+/*text-style css*/
+h1{
+	width:140%;
+	background-color:#F00;
+	font:bold 1.5em Verdana, Geneva, sans-serif;
+	margin:0 -10px 10px -10px;
+	padding: 6px 14px 6px 14px;
+	line-height:100%;
+}
+	
+	 .maincontent{
+	width:70%;
+	min-height:100%;
+	margin-top:7%; 
+	margin-right:5px;
+	margin-bottom:10px;
+	margin-left:10px ;
+	line-height:150%;
+}
+
+
+/*positional css*/
+#container{
+	width:90%;
+	min-height:100%;
+	margin: 0 auto;
+	background-color:white;
+}
+	
+	/*style the topNav*/
+	
+	.topNav {
+	float:none;
+	margin-right: 20px;
+	text-align: center;
+}
+div.topNav a {
+	background-color: #8ED1E0;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	margin: 0px 0px 0px 15px;
+	min-width: 90px;
+	display: inline-block;
+/*	border-bottom: 5px solid #54A9BC;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;*/
+
+}
+div.topNav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/*End of topNav*/
+
+
+/*style the linksmenu*/
+#linksmenu{
+	font-family:Verdana, Geneva, sans-serif;
+	float:right;
+	width: 20%;
+	height:auto;
+	margin-top:5%;
+	padding-top:2%;
+	padding-right:3px;
+	padding-left:0;
+}
+	
+#linksmenu h3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#60C
+	text-decoration:overline;
+}
+
+#linksmenu ul{
+list-style-type: none;
+}
+/*linksmenu .link{color:blue;
+}*/
+#linksmenu li{
+	margin-top:7%;
+	margin-right:0;
+	margin-bottom:0;
+	margin-left:0;
+	line-height:50%;
+	
+}
+
+#linksmenu a:link{
+	font-size-adjust:0.5;
+	text-decoration:none;
+	color:black;
+}
+#linksmenu a:visited{
+	font-size-adjust:0.5;
+	text-decoration:none;
+	color:black;
+}
+
+#linksmenu a:hover{
+	font-size-adjust:0.5;
+	color: black;
+	text-decoration:overline;
+}
+
+#linksmenu a:active{
+	font-size-adjust:0.5;
+	color: transparent;
+	text-shadow: 0 0 5px #000;
+}
+
+/*end style linksmenu*/
+
+/*navigational css
+
+	
+	
+/*code the blockquote - cheat taken from http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ - because its good!*/
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  border-color:#CCC;
+  border-width:thin;
+}
+/*end code blockquote*/
+
+#header{
+	height:50px;
+	margin-top:5px;
+	margin-bottom:50px;
+	/*background-color:red;*/
+}
+
+#menubuttonbar{
+	width:100%;
+}.topimg {
+	margin: 10px;
+	padding-top:10px;
+	padding-bottom:40px;	
+}
+
+
+/*#footer {
+	position:absolute;
+	bottom:10px;
+	width:200%;
+	height:auto;
+	color:#FFDEAD;
+	width:677px;
+	padding: 10px 0;
+	background-color:#996600;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant:small-caps;
+	font-size:9px;
+	clear: both;
+	
+}*/
+
+#footer {
+   position:auto;
+   bottom:0;
+   width:100%;
+   margin-right:300px;
+   height:60px;   /* Height of the footer */
+   background: rgb(231,56,39); /* Old browsers */
+	background-color:#996600;
+   color:#FFDEAD;
+}	
+
+
